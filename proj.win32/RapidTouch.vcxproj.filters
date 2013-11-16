@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Win32 Entry">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="2. App Core">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="4. Precompiled Header">
+      <UniqueIdentifier>{9b4de5b9-ac38-4453-b591-28cbc9b88e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. Scenes">
+      <UniqueIdentifier>{384a4e45-b33a-4cff-a16e-0bfd252f11e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src.win32\WinMain.cpp">
+      <Filter>1. Win32 Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RapidTouchPch.cpp">
+      <Filter>4. Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RapidTouchApp.cpp">
+      <Filter>2. App Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogoScene.cpp">
+      <Filter>3. Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\RapidTouchPch.h">
+      <Filter>4. Precompiled Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RapidTouchApp.h">
+      <Filter>2. App Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LogoScene.h">
+      <Filter>3. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RapidTouch.h">
+      <Filter>2. App Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
