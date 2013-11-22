@@ -18,13 +18,12 @@ LOCAL_PATH := $(RT_LOCAL_PATH)
 LOCAL_MODULE := RapidTouch
 
 RT_SRC := ../../src
-RT_SRC_ANDROID := ../../src.android
 
 LOCAL_SRC_FILES := \
 	$(RT_SRC)/LogoScene.cpp \
 	$(RT_SRC)/RapidTouchApp.cpp \
 	$(RT_SRC)/RapidTouchPch.cpp \
-	$(RT_SRC_ANDROID)/JniMain.cpp
+	$(RT_SRC).android/NativeInit.cpp
 
 LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/../../src \
