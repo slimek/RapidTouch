@@ -18,10 +18,10 @@ int CALLBACK wWinMain(
     RapidTouchApp app;
  
     ApplicationSettings s;
-    s.win32FrameWidth  = 480;
-    s.win32FrameHeight = 640;
-    s.win32FrameTitle  = "Rapid Touch";
-    s.win32AssetsPath  = "..\\Assets";
+    s.title = "Rapid Touch";
+    s.desktop.frameWidth  = 480;
+    s.desktop.frameHeight = 640;
+    s.desktop.assetsPath  = "..\\Assets";
 
     return app.Run( s );
 }
