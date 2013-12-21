@@ -55,7 +55,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\src;..\..\Toffee\include;..\..\Caramel\include;..\..\CandyJar\include;..\..\cocos2d-x\cocos2dx\kazmath\include;..\..\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES;..\..\cocos2d-x\cocos2dx\platform\win32;..\..\cocos2d-x\cocos2dx\include;..\..\cocos2d-x\cocos2dx</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\src;..\..\Toffee\include;..\..\Caramel\include;..\..\CandyJar\include;..\..\Cocos2d-x2\cocos2dx\kazmath\include;..\..\Cocos2d-x2\cocos2dx\platform\third_party\win32\OGLES;..\..\Cocos2d-x2\cocos2dx\platform\win32;..\..\Cocos2d-x2\cocos2dx\include;..\..\Cocos2d-x2\cocos2dx</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
       <PrecompiledHeaderFile>RapidTouchPch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -72,7 +72,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\src;..\..\Toffee\include;..\..\Caramel\include;..\..\CandyJar\include;..\..\cocos2d-x\cocos2dx\kazmath\include;..\..\cocos2d-x\cocos2dx\platform\third_party\win32\OGLES;..\..\cocos2d-x\cocos2dx\platform\win32;..\..\cocos2d-x\cocos2dx\include;..\..\cocos2d-x\cocos2dx</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\src;..\..\Toffee\include;..\..\Caramel\include;..\..\CandyJar\include;..\..\Cocos2d-x2\cocos2dx\kazmath\include;..\..\Cocos2d-x2\cocos2dx\platform\third_party\win32\OGLES;..\..\Cocos2d-x2\cocos2dx\platform\win32;..\..\Cocos2d-x2\cocos2dx\include;..\..\Cocos2d-x2\cocos2dx</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4251</DisableSpecificWarnings>
       <PrecompiledHeaderFile>RapidTouchPch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -102,7 +102,7 @@
     <ProjectReference Include="..\..\Caramel\proj.win32\Caramel_vc11.vcxproj">
       <Project>{ed63d1e4-3de9-4273-a22a-8b558e1bd6c0}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\cocos2d-x\cocos2dx\proj.win32\cocos2d.vcxproj">
+    <ProjectReference Include="..\..\Cocos2d-x2\cocos2dx\proj.win32\cocos2d.vcxproj">
       <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
     </ProjectReference>
     <ProjectReference Include="..\..\Toffee\proj.win32\Toffee_vc11.vcxproj">
