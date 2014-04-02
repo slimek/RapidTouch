@@ -6,7 +6,8 @@
 #pragma once
 
 #include <Toffee/Toffee.h>
-#include <Caramel/Caramel.h>
+#include <Caramel/Setup/CaramelDefs.h>
+#include <cocos2d.h>
 
 
 using namespace cocos2d;
